@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to bootstrapdemo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Creating Container fluid -->
+    <div class="container-fluid">
+        <h1>Bootstrap is a front-end framework</h1>
+        <p>The latest version of bootstrap is 5</p>
+    </div>  
+
+    <!-- Creating padding,margin,and background color in the container -->
+    <div class="container p-5my -5 bg-dark text-white">
+        <h1>My First Bootstrap Page</h1>
+        <p>This container has some padding and margins with background color black with white text</p>
+    </div>
+    <div class="container-sm border">.container-sm</div>
+    <div class="container-md border">.container-md</div>
+    <!-- Creating background colors -->
+    <div class="container">
+        <p class="text-bg-primary ">The Important text</p>
+        <p class="bg-success p-3"></p>
+        <p class="bg-secondary p-3"></p>
+        <p class="bg-danger p-3"></p>
+    </div>
+    <!-- Creating Typography Headings are from h1-h6 -->
+    <div class="container">
+        <p class="h1">The largest heading is h1</p>
+        <p class="h6">The Smallest heading is h6</p>
+    </div>
+    <!-- Creating Display Headings-->
+    <p>Creating display headings</p>
+    <div class="container-fluid">
+        <h1 class="display-1">The display heading is created</h1>
+        <h6 class="display-6">IN Display the font size is higher and the font weight is lighter </h6>
+    </div>
+    
+    <!-- Creating small tag-->
+    <p>Creating small tag inside the display element</p>
+    <h6 class="display-6">Welcome to <small>Bootstrap version 5</small></h3>
+
+<!-- creating grid Equal and unequal columns system -->
+<div class="container mt-30">
+    <div class="row">
+        <p>Equal Column width</p>
+        <div class="col-sm-4 p-3 bg-primary text-white">.col</div>
+        <div class="col-sm-4 p-3 bg-danger text-white">.col</div>
+        <div class="col-sm-4 p-3 bg-success text-white">.col</div>
+    </div>
+    <div class="row">
+        <p>Un-equal columns</p>
+        <div class="col-lg-6 p-3 bg-warning text-white">Column large</div>
+        <div class="col-md-3 p-3 bg-secondary text-white">Column medium</div>
+    </div>
+</div>
+<!-- Creating mark element -->
+<div class="container">
+    <P>Highlighting the text using mark element</P>
+    <p>Here we are highlighting the content is <mark>Bootstrap version 5</mark>using mark element</p>
+</div>
+    <!-- creating a Basic table -->
+    <div class="container">
+        <h5>Basic Table</h5>
+        <table class="table">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>designation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bhavani</td>
+                <td>ASE</td>
+            </tr>
+            <tr>
+                <td>Abhinaya</td>
+                <td>Deveops</td>
+            </tr>
+            <tr>
+                <td>Kareena</td>
+                <td>Java developer</td>
+            </tr>
+            <tr>
+                <td>Manaswini</td>
+                <td>Full-stack developer</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+
+    <!-- Creating a striped table -->
+    <!-- creating a table -->
+    <div class="container">
+        <h5>Striped Table</h5>
+        <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>designation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bhavani</td>
+                <td>ASE</td>
+            </tr>
+            <tr>
+                <td>Abhinaya</td>
+                <td>Deveops</td>
+            </tr>
+            <tr>
+                <td>Kareena</td>
+                <td>Java developer</td>
+            </tr>
+            <tr>
+                <td>Manaswini</td>
+                <td>Full-stack developer</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+     <!-- creating a bordered table -->
+     <div class="container">
+        <h5>bordered Table</h5>
+        <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>designation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bhavani</td>
+                <td>ASE</td>
+            </tr>
+            <tr>
+                <td>Abhinaya</td>
+                <td>Deveops</td>
+            </tr>
+            <tr>
+                <td>Kareena</td>
+                <td>Java developer</td>
+            </tr>
+            <tr>
+                <td>Manaswini</td>
+                <td>Full-stack developer</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <!-- Creating Image shapes/ -->
+    <div class="container-fluid">
+        <img src="flower.jpg" class="rounded-circle float-end" alt="Notloaded" width="250px" >
+        <img src="flower.jpg" class="img_thumbnail"  alt="Notloaded" width="250px" >  
+    </div>
+    <br>
+    <!-- Creating Jumpbotron-->
+    <div class="container p-9 my-20 bg-secondary text-white">
+        <h1>Example of Jumbotron</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sit? Veritatis quo soluta molestias maiores quibusdam, fugit nobis earum cum! </p>      
+    </div>
+    <!-- Creating alerts -->
+    <div class="container mt-5">
+        <h3>Alerts</h3>
+        <div class="alert alert-primary">
+            <mark>Primary</mark>The primary indicates the important content</div>
+        <div class="alert alert-secondary">
+            <mark>Secondary</mark>The secondary indicates slightly less important than primary</div>
+        <div class="alert alert-danger">
+            <mark>Danger</mark>Danger indicates something harmful it will happen</div>
+        <div class="alert alert-warning">
+            <mark>Warning</mark>Warning specifys something to be happen</div>
+        <div class="alert alert-info">
+            <mark>Info</mark>Info specifies some content
+        </div>
+        <div class="alert alert-dark">
+            <mark>Dark</mark>The text is dark
+        </div>
+        <div class="alert alert-light">
+            <mark>Light</mark>The text is light
+        </div>
+    </div>
+    <!-- Creating buttons  -->
+    <button type="button" class="btn">normal button</button>
+    <button type="button" class="btn btn-primary">primary</button>
+    <button type="button" class="btn btn-secondary">secondary</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-dark">dark</button>
+    <button type="button" class="btn btn-light">light</button></div></br>
+    
+    <!-- Creating group buttons -->
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">primary</button>
+        <button type="button" class="btn btn-secondary">secondary</button>
+        <button type="button" class="btn btn-success">success</button>
+    </div>
+    <!-- Creating Vertical group buttons -->
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">primary</button>
+        <button type="button" class="btn btn-secondary">primary</button>
+        <button type="button" class="btn btn-success">primary</button>
+    </div>  
+    <!-- Creating badges :Additional Information to the content -->
+    <div class="container m-8">
+        <h1 >The badge example is<span class="badges bg-primary">Span</span></h1>
+        <h2 >The badge example is<span class="badges bg-primary">Span</span></h2>
+        <h3>The badge example is<span class="badges bg-primary">Span</span></h3><br>
+    </div>
+    <!-- Creating progess bar:How far a user completed the task:To use this add progress class in container and then also add the progress-bar in the child conatiner with a specific width to specify a progress -->
+    <div class="container mt-6">
+        <div class="progress ">
+            <div class="progress-bar" style="width:50%">The progress of a user</div>
+        </div>
+        <div class="progress ">
+            <div class="progress-bar bg-success" style="width:50%">The progress of a user</div>
+        </div>
+        <div class="progress ">
+            <div class="progress-bar bg-danger progress-bar-striped" style="width:50%">The progress of a user</div>
+        </div>
+    </div>
+    <!-- Creating Spinner borders -->
+    <div class="container">
+        <p>Example of spinner/loader</p>
+        <div class="spinner-border">Basic spinner</div><br>
+        <div class="spinner-border bg-warning">Spinner with background color warning</div><br>
+        <div class="spinner-border bg-dark">Spinner with background color dark</div>
+    <!-- Grow spinner/loader -->
+        <div class="spinner-grow bg-warning"></div>
+        <div class="spinner-grow bg-info"></div>
+        <div class="spinner-grow bg-secondary"></div>
+    </div>
+    <!-- Creating Pagination -->
+    <!-- To create a basic pagination, add the .pagination class to an <ul> element. Then add the .page-item to each <li> element and a .page-link class to each link inside <li> -->
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">previous</a></li>  
+        <li class="page-item"><a class="page-link" href="#">1</a></li>  
+        <li class="page-item "><a class="page-link" href="#">2</a></li> 
+        <li class="page-item"><a class="page-link" href="#">3</a></li> 
+        <li class="page-item"><a class="page-link" href="#">4</a></li>  
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>  
+    <!-- Creating active and disable pagination -->
+    <ul class="pagination">
+        <h1>Example of Active pagination and disabled </h1>
+        <li class="page-item disabled"><a class="page-link" href="#">previous</a></li>  
+        <li class="page-item"><a class="page-link" href="#">1</a></li>  
+        <li class="page-item active"><a class="page-link" href="#">2</a></li> 
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>  
+    <!-- Creating Pagination sizing and alignment -->
+    <ul class="pagination pagination-lg justify-content-end">
+        <p>example of pagination sizing and alignment</p><br>
+        <li class="page-item"><a class="page-link" href="#">previous</a></li>  
+        <li class="page-item"><a class="page-link" href="#">1</a></li>  
+        <li class="page-item "><a class="page-link" href="#">2</a></li> 
+        <li class="page-item"><a class="page-link" href="#">3</a></li> 
+        <li class="page-item"><a class="page-link" href="#">4</a></li>  
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>  
+    <!-- Creating List-group items -->
+    <div class="container ">
+        <h2>Example of List Group</h2>
+        <ul class="list-group">
+          <li class="list-group-item">First item</li>
+          <li class="list-group-item active">Second item</li>
+          <li class="list-group-item disabled">Third item</li>
+        </ul>
+        <!-- Creating list-group horizontal -->
+        <ul class="list-group list-group-horizontal">
+            <p>Example of list-group horizontal</p>
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item active">Second item</li>
+            <li class="list-group-item disabled">Third item</li>
+        </ul>
+    </div>
+    <!-- Creating cards:It is bordered box with padding and some content it also contains heading ,content and footer -->
+    <div class="card">
+        <p>Example of card</p>
+        <div class="card-body">The normal card</div>
+        <div class="card-header bg-success">Header card</div>
+        <div class="card-content bg-warning">The content card</div>
+        <div class="card-footer bg-secondary text-white">The footer card</div>
+    </div>
+    <!-- Creating dropdown unordered lists type  -->
+    <div class="dropdown">
+        <p>Example of dropdown unordered list</p>
+        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Drop-down button</button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">link 1</a></li>
+            <li><a class="dropdown-item" href="#">link 2</a></li>
+            <li><a class="dropdown-item disabled" href="#">link 3</a></li>
+            <li><a class="dropdown-item" href="#">link 4</a></li>
+        </ul>
+    </div>
+    <!-- Creating dropdown divison type -->
+    <div class="dropdown">
+        <p>Example of dropdown division type</p>
+        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">Dropdown button</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="">link 1</a>
+            <a class="dropdown-item" href="">link 2</a>
+            <a class="dropdown-item" href="">link 3</a>
+            <a class="dropdown-item" href="">link 4</a>
+        </div>
+    </div>
+    <!-- Creating navigation:nav,nav-item,nav-link are included in it -->
+    <ul class="nav">
+        <li class="nav-item" ><a class="nav-link" href="">Item 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="">Item 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="">Item 3</a></li>
+    </ul>
+    <!-- Creating Carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="futurecity1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="mamooth.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="futurecity2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+        </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+             
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+       
+
+</body>
+</html>
